@@ -1,0 +1,22 @@
+{
+  "name": "actor1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "coffee --compile src/index.coffee",
+    "watch": "coffee -o src/ -cw src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^3.0.9",
+    "clear-module": "^3.0.0",
+    "comedy": "^1.6.0",
+    "gun": "^0.9.9998"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.1"
+  }
+}

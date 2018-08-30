@@ -1,0 +1,1 @@
+coffee src/index.coffee
