@@ -20,6 +20,10 @@ dependency injection
 
 https://github.com/jeffijoe/awilix
 
+graph library
+
+https://github.com/dagrejs/graphlib/wiki
+
 ### To run tests
 
 npm test

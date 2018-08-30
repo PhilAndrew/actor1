@@ -1,1 +1,1 @@
-coffee src/index.coffee
+coffee src/EntryPoint.coffee

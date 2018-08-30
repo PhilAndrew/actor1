@@ -1,12 +1,16 @@
-Gun = require 'gun'
+
 Comedy = require 'comedy'
 Awilix = require 'awilix'
-setup = require './setup'
+Setup = require './Setup'
 
 start = ->
-  console.log(setup.container)
-  myactor = setup.container.resolve('MyActor')
-  myactor.sayHello('phil')
+  console.log(Setup.container)
+  setupGraph = Setup.container.resolve 'SetupGraph'
+  setupGraph.setup()
+
+
+  #myActor = Setup.container.resolve('MyActor')
+  #myActor.sayHello('phil')
 
 
 #myactor.sayHello('philip')

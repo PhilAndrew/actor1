@@ -2,7 +2,8 @@
 class SumActor
 
   constructor: (opts) ->
-    @gun = opts.gun
+    console.log 'hi'
+    #@gun = opts.gun
 
   sum: () ->
 # 1. Read context from graph database
@@ -10,8 +11,5 @@ class SumActor
 # 3. Write results to the database
 # 4. Reply
     console.log "Hello, #{to}!"
-    gun.get('mark').put
-      name: 'Mark'
-      email: 'mark@gunDB.io'
 
 module.exports = SumActor
