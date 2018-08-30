@@ -20,4 +20,12 @@ dependency injection
 
 https://github.com/jeffijoe/awilix
 
+### To run tests
 
+npm test
+
+### Tasks
+
+1. Add testing framework DONE
+2. Create test to create a set of actors, send messages and tear-down at end
+3. ?

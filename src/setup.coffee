@@ -4,7 +4,6 @@ Comedy = require 'comedy'
 Awilix = require 'awilix'
 
 # Setup
-# @todo Move setup to dependency injection?
 actorSystem = Comedy()
 
 # radisk false and file false to force in memory storage
