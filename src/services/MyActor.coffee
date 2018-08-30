@@ -11,4 +11,3 @@ class MyActor
       email: 'mark@gunDB.io'
 
 module.exports = MyActor
-
