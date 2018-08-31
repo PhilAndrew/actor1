@@ -1,0 +1,1 @@
+coffee src/EntryPoint.coffee

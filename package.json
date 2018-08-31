@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "jasmine",
-    "compile": "coffee --compile src/index.coffee",
-    "watch": "coffee -o src/ -cw src/"
+    "compile": "coffee --compile src/",
+    "watch": "coffee --watch --compile ./src/"
   },
   "author": "",
   "license": "ISC",
