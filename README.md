@@ -8,6 +8,10 @@ This integrates the Comedy Actor system with Awilix dependency injection with th
 
 ### Libraries
 
+actor system
+
+https://github.com/untu/comedy
+
 dependency injection
 
 https://github.com/jeffijoe/awilix

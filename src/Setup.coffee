@@ -26,7 +26,7 @@ container = Awilix.createContainer
 container.register
   logger: Awilix.asValue logger
   actorSystem: Awilix.asValue actorSystem
-  graphClass: Awilix.asClass graphClass
+  #graphClass: Awilix.asClass graphClass
   graph: Awilix.asValue graphInstance
 
 opts = {}

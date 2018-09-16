@@ -2,7 +2,10 @@
 class MyActor
 
   constructor: (opts) ->
-    console.log 'hi'
+    @actorSystem = opts.actorSystem
+    @rootActor = @actorSystem.rootActor()
+    #@rootActor.then (rootActor) ->
+    #  console.log rootActor
 
   sayHello: (to) ->
     console.log "Hello, #{to}!"
