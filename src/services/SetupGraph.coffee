@@ -4,10 +4,9 @@ Graph = require '@dagrejs/graphlib'
 class SetupGraph
 
   constructor: (opts) ->
-    @g = opts.graph
 
   setup: () ->
-    g = @g
+    g = new Graph.Graph()
     g.setNode 'a', label: 'node a'
     g.setNode 'b', label: 'node b'
     g.setEdge 'a', 'b', label: 'edge a->b'
